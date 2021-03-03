@@ -19,3 +19,9 @@ This application will be built on Next.js for the front end. Stipe will handle t
 
 ## notes
 This is pretty basic so far. These are just some initial thoughts as to what I want the site to be. As the application is build out, I would like to add images of different parts such as the sign in process and some basic templates for articles/profiles. 
+
+I think the initial things to work on is just some simple UI. The next step after that would probably to create a way to log in, then implement authentication into that. 
+
+- [ ] Make a simple login page for users with just an input for username and password.
+
+- [ ] Implement authentication via Firebase
