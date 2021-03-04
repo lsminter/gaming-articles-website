@@ -14,7 +14,7 @@ I'd like for users to be able to have their own dashboard where they can edit th
 These accounts will have less restrictions on the amount of articles they can post. These users will be identified by a symbol next to their name. 
 
 ## Next.js, Stripe, Firebase
-This application will be built on Next.js for the front end. Stipe will handle the payment side of things. Firebase will be used for user authentication. I'd like to learn more about using Tailwindcss. 
+This application will be built on Next.js for the front end. Stipe will handle the payment side of things. Firebase will be used for user authentication. I'd like to learn more about using Tailwindcss. I'm unsure what to use for storing data. 
 
 ## Rabbit Holes
 Adding in too many features. I should keep it small initially and just have the basic stuff, profile name and the option to change their password. Not going too in depth for user profiles and leave out the comments section for now. 
