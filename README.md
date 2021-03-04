@@ -1,4 +1,4 @@
-# Gaming Articles Website.
+# Gaming Articles Website
 
 The purpose of the Gaming Articles Website is to give gamers a place to write their own articles and display them to other users. Here, gamers can start conversations around any topic one might present. 
 
