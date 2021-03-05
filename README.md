@@ -32,8 +32,6 @@ I think the initial things to work on is just some simple UI. The next step afte
 
 ## Start the Server
 
-To start the server, `cd` into the `gaming-article-website` folder. 
-
 Run `yarn` to install the dependencies.
 
 Run `yarn dev` to start the server on `http://localhost:3000`. 
