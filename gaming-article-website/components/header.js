@@ -7,6 +7,7 @@ export default function Header() {
     <div className="header">
       <h1>This is my header!</h1>
       <Link href="/login">Login</Link>
+      <Link href="/">Home</Link>
     </div>
   )
 }
