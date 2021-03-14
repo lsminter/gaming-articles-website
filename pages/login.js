@@ -13,11 +13,7 @@ export default function Login () {
         <h1 className="text-6xl m-0">
           <a>Login Page!!</a>
         </h1>
-        <button onClick={() => auth.signinWithGithub()}>Sign In</button>
         <div>{auth?.user?.email}</div>
-        {auth?.user && (
-          <button onClick={() => auth.signout()}>Sign Out</button>
-        )}
       </main>
         <Footer />
     </div>
