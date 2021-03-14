@@ -23,7 +23,7 @@ export default function Header() {
           <button className="ml-2 mr-2 hover:text-white" onClick={() => auth.signinWithGithub()}>Sign In</button>
         )}
         {auth?.user && (
-            <button class="ml-2 mr-2 hover:text-white" onClick={() => auth.signout()}>Sign Out</button>
+            <button className="ml-2 mr-2 hover:text-white" onClick={() => auth.signout()}>Sign Out</button>
         )}
       </div>
     </div>
