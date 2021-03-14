@@ -1,10 +1,7 @@
 import Header from '../components/header'
 import Footer from '../components/footer'
 
-import { useAuth } from '../lib/auth';
-
 export default function Login () {
-  const auth = useAuth();
 
   return(
     <div className="flex flex-col items-center justify-center min-h-screen py-0 px-2">
@@ -13,7 +10,6 @@ export default function Login () {
         <h1 className="text-6xl m-0">
           <a>Login Page!!</a>
         </h1>
-        <div>{auth?.user?.email}</div>
       </main>
         <Footer />
     </div>
