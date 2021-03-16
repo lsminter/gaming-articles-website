@@ -17,7 +17,7 @@ export default function New () {
                       Title
                     </label>
                     <div className="mt-1 flex rounded-md shadow-sm">
-                      <input type="text" name="Title" id="Title" className="focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-300" placeholder="Your Title Here" />
+                      <input type="text" name="Title" id="Title" className="focus:ring-gray-500 focus:border-gray-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-300 p-1" placeholder="Your Title Here" />
                     </div>
                   </div>
                 </div>
@@ -27,12 +27,12 @@ export default function New () {
                     Article
                   </label>
                   <div className="mt-1">
-                    <textarea id="about" name="about" rows="3" className="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border-gray-300 rounded-md" placeholder="you@example.com"></textarea>
+                    <textarea id="about" name="about" rows="3" className="shadow-sm focus:ring-gray-500 focus:border-gray-500 mt-1 block w-full sm:text-sm border-gray-300 rounded-md p-1" placeholder="you@example.com"></textarea>
                   </div>
                 </div>
               </div>
               <div className="px-4 py-3 bg-gray-50 text-right sm:px-6">
-                <button type="submit" className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                <button type="submit" className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-gray-400 hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
                   Save
                 </button>
               </div>
