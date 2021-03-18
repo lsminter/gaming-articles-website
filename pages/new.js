@@ -8,7 +8,7 @@ export default function New () {
   }
 
   return(
-    <div className="flex flex-col justify-center min-h-screen py-0">
+    <div className="flex flex-col justify-center">
       <Header />
       <div className="flex flex-col flex-grow px-0 py-20 min-h-screen">
         <div className="mt-5 md:mt-0 md:col-span-2">
@@ -31,7 +31,7 @@ export default function New () {
                     Article
                   </label>
                   <div className="mt-1">
-                    <textarea id="about" name="about" rows="3" className="shadow-sm focus:ring-gray-500 focus:border-gray-500 mt-1 block w-full sm:text-sm border-gray-300 rounded-md p-1" placeholder="you@example.com"></textarea>
+                    <textarea id="about" name="about" rows="3" className="shadow-sm focus:ring-gray-500 focus:border-gray-500 mt-1 block w-full sm:text-sm border-gray-300 rounded-md p-1" placeholder="Your Article Here"></textarea>
                   </div>
                 </div>
               </div>
