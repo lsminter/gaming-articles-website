@@ -3,17 +3,21 @@ import Footer from '../components/footer'
 
 export default function New () {
 
+  const handleSubmit = (e) => {
+    e.preventDefault()
+  }
+
   return(
-    <div classNameName="flex flex-col items-center justify-center min-h-screen py-0 px-2">
+    <div>
       <Header />
       <div className="flex flex-col flex-grow px-0 py-20 min-h-screen">
         <div className="mt-5 md:mt-0 md:col-span-2">
-          <form action="#" method="POST">
+          <form action="#" method="POST" onSubmit={handleSubmit}>
             <div className="shadow sm:rounded-md sm:overflow-hidden">
               <div className="px-4 py-5 bg-white space-y-6 sm:p-6">
                 <div className="grid grid-cols-3 gap-6">
                   <div className="col-span-3 sm:col-span-2">
-                    <label for="Title" className="block text-sm font-medium text-gray-700">
+                    <label htmlFor="Title" className="block text-sm font-medium text-gray-700">
                       Title
                     </label>
                     <div className="mt-1 flex rounded-md shadow-sm">
@@ -23,7 +27,7 @@ export default function New () {
                 </div>
 
                 <div>
-                  <label for="about" className="block text-sm font-medium text-gray-700">
+                  <label htmlFor="about" className="block text-sm font-medium text-gray-700">
                     Article
                   </label>
                   <div className="mt-1">
