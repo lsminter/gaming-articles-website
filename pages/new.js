@@ -8,7 +8,7 @@ export default function New () {
   }
 
   return(
-    <div>
+    <div className="flex flex-col justify-center min-h-screen py-0">
       <Header />
       <div className="flex flex-col flex-grow px-0 py-20 min-h-screen">
         <div className="mt-5 md:mt-0 md:col-span-2">
