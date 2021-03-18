@@ -12,10 +12,6 @@ export default function Header() {
           <div>Logged in as: {auth?.user?.email}</div>
         )}
       <div className="flex flex-wrap items-center mr-5">
-
-        <Link href="/login">
-          <h1 className="ml-2 mr-2 hover:text-white item-start">Login</h1>
-        </Link>
         <Link href="/new">
           <h1 className="ml-2 mr-2 hover:text-white item-start">New Article</h1>
         </Link>
