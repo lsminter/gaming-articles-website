@@ -6,8 +6,8 @@ export default function Header() {
   const auth = useAuth();
 
   return(
-    <div className="flex flex-wrap bg-gray-400 w-screen justify-between">
-      <Link href="/"><h1 className="text-3xl">This is my header!</h1></Link>
+    <div className="flex flex-row flex-wrap bg-gray-400 w-screen justify-between">
+      <a href="/"><h1 className="text-3xl">This is my header!</h1></a>
       <div className="flex flex-wrap items-center mr-5">
         <Link href="/new">
           <h1 className="ml-2 mr-2 hover:text-white item-start">New Article</h1>
@@ -23,8 +23,8 @@ export default function Header() {
         )}
         {auth?.user && (
           <div>
-            <div className="sm:w-2/12 px-4">
-              <img src={auth?.user?.photoUrl} className="shadow rounded-full max border-none"/>
+            <div className="w-16 px-4">
+              <img src={auth?.user?.photoUrl} className="rounded-full"/>
             </div>
           </div>
         )}
