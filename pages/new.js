@@ -12,7 +12,7 @@ export default function New () {
       <Header />
       <div className="flex flex-col flex-grow px-0 py-20 min-h-screen">
         <div className="mt-5 md:mt-0 md:col-span-2">
-          <form action="#" method="POST" onSubmit={handleSubmit}>
+          <form method="post" onSubmit={handleSubmit}>
             <div className="shadow sm:rounded-md sm:overflow-hidden">
               <div className="px-4 py-5 bg-white space-y-6 sm:p-6">
                 <div className="grid grid-cols-3 gap-6">
@@ -35,11 +35,13 @@ export default function New () {
                   </div>
                 </div>
               </div>
+
               <div className="px-4 py-3 bg-gray-50 text-right sm:px-6">
                 <button type="submit" className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-gray-400 hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
                   Save
                 </button>
               </div>
+              
             </div>
           </form>
         </div>
