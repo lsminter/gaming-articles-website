@@ -12,6 +12,9 @@ export default function Header() {
         <Link href="/new">
           <h1 className="ml-2 mr-2 hover:text-white item-start">New Article</h1>
         </Link>
+        <Link href="/dashboard">
+        <h1 className="ml-2 mr-2 hover:text-white item-start">Dashboard</h1>
+        </Link>
         <Link href="/">
           <h1 className="ml-2 mr-2 hover:text-white item-start">Home</h1>
         </Link>

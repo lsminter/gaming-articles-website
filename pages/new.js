@@ -2,18 +2,24 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import { useForm } from 'react-hook-form';
 import createArticle from '../lib/db'
+import {useAuth} from '../lib/auth'
 
 export default function New () {
 
-  const { handleSubmit, register, errors } = useForm()
+  const { handleSubmit, register } = useForm()
+  const auth = useAuth();
   const onSubmit = (values) => {
-    createArticle(values);
+    createArticle({
+      authorId: auth.user.uid,
+      createAt: new Date().toISOString(),
+      ...values
+    })
   }
 
   return(
     <div className="flex flex-col justify-center">
       <Header />
-      <div className="flex flex-col flex-grow px-0 py-20 min-h-screen">
+      <div className="flex flex-col flex-grow px-0 py-20 max-h-screen">
         <div className="mt-5 md:mt-0 md:col-span-2">
           <form method="post" onSubmit={handleSubmit(onSubmit)}>
             <div className="shadow sm:rounded-md sm:overflow-hidden">
